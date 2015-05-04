@@ -1,46 +1,150 @@
 body{
+  background-color: #white;
+}
+
+
+#page{
+  display:block;
+  height: 100%;
+  width:100%;
+  border-color:black;
+  border:1px solid;
+  margin:auto;
+  height:100%;
+  top:0px;
   background-color: #046791;
 }
 
 header{
-  background-color: white;
-  height: 60px;
-  font-family:arial, helvetica, sans-serif;
   width:100%;
-}
-
-header span{
-  color:red;
-}
-
-#logo{
-  padding-left: 30px;
-  float:left;
-  font-size: 50px;
+  background-color: white;
+  height: 80px;
+  font-family:arial, helvetica, sans-serif;
 }
 
 #top-navigation-container{
-  float:left;
+  width:80%;
   text-align: center;
   background-color:white;
-  color:black;
-  padding-top:5px;
-  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  height:100%;
+}
+
+#logo{
+  float:left;
+  font-size: 60px;
+}
+
+#logo span{
+  color:red;
+}
+
+#top-button-wrapper{
+  float:right;
+  height:100%;
 }
 
 .top-navigation-button{
+  color:black;
   height:100%;
-  width:120px;
-  float: right;
+  font-size: 30px;
+  width:190px;
   margin-left:10px;
   margin-right:10px;
-  border-bottom-right-radius:  20%;
-  border-bottom-left-radius:  20%;
-  position: relative;
+  border-color:black;
+  border:1px solid;
+  display:inline-block;
+}
+
+.top-navigation-button div{
+  position:relative;
   top:25%;
 }
 
-.fb-share-button{
-  height:20px;
-  width: 20px;
+#body-wrapper{
+  width:100%;
+  background-color: #046791;
+  display:block;
+}
+
+#left-column{
+  border-color:black;
+  border:1px solid;
+  float:left;
+  }
+
+#right-column{
+  float:right;
+  border-color:black;
+  border:1px solid;
+  width:20%;
+}
+
+#main{
+  width:60%;
+  border-color:black;
+  border:1px solid;
+  margin:0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+footer{
+  background-color: white;
+  border-color:black;
+  border:1px solid;
+  width:inherit;
+  margin:auto;
+  height:auto;
+  clear:both;
+  position:fixed;
+  bottom:0px;
+}
+
+#bot-button-wrapper{
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+  display:inline-block;
+  border-color:black;
+  border:1px solid;
+  text-align: center;
+}
+
+.bot-navigation-button{
+  color:black;
+  font-size: 16px;
+  height:auto;
+  width:auto;
+  margin:auto;
+  top:30%;
+  border-color:black;
+  border:1px solid;
+  display:inline;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#ewish{
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 1850px) {
+    .top-navigation-button{
+          color:black;
+          font-size: 16px;
+          width:100px;
+          margin-left:10px;
+          margin-right:10px;
+          border-color:black;
+          border:1px solid;
+          display:inline-block;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .top-navigation-button{
+          display: none;
+    }
 }
