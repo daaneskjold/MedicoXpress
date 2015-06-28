@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MedicoXpress - Home</title>
+    <link rel="stylesheet" href="css/contact.css"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/contact.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="http://static.addtoany.com/menu/page.js"></script>
+     <script src="https://maps.googleapis.com/maps/api/js"></script>
+  </head>
+
+  <body>
+    <div id="page">
+      <header>
+        <section id='top-navigation-container'>
+          <div id="logo">
+            <img src="img/medicoxpress.png">
+          </div>
+          <section id="top-button-wrapper">
+            <a href="index.html"><div class="top-navigation-button home inactive"><div>HOME</div></div></a>
+            <a href="services.html"><div class="top-navigation-button services inactive"><div>SERVICES</div></div></a>
+            <a href="specialists.html"><div class="top-navigation-button specialists inactive"><div>SPECIALISTS</div></div></a>
+            <a href="about.html"><div class="top-navigation-button about inactive"><div>ABOUT</div></div></a>
+            <a href="contact.html"><div class="top-navigation-button contact active"><div>CONTACT</div></div></a>
+          </section>
+        </section>
+      </header>
+      <body>
+        <section id="body-wrapper">
+          <section id="left-column">
+            <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+              <a class="a2a_dd" href="https://www.addtoany.com/share_save"></a>
+              <a class="a2a_button_facebook"></a>
+              <a class="a2a_button_google_plus"></a>
+              <a class="a2a_button_twitter"></a>
+              <a class="a2a_button_email"></a>
+            </div>
+          </section>
+          <section id="main">
+
+            <div class = "content_container">
+              <div id="phone_container" class="contact_content">
+                <div id = "contact_title">
+                  <div> Call us</div>
+                </div>
+                <div id="phone_body">
+                  <table>
+                    <tr><td>MedicoXpress</td></tr>
+                    <tr><td>Carretera Federal Cancun</td></tr>
+                    <tr><td>Playa del Carmen, Puerto Morelos<br></td></tr>
+                    <tr><td>QR 77583 MX</td></tr>
+                    <tr><td>+52.9981698299</td></tr>
+                    <tr><td>gerente@medicoxpress.com</td></tr>
+                  </table>
+                </div>
+
+                <div id="map-canvas"></div>
+
+              </div>
+
+              <div id = "mail_container" class="contact_content">
+                <div id = "contact_title">
+                  <div> Mail us</div>
+                </div>
+                <form name="htmlform" method="post" action="MAILTO: jordagg@hotmail.com" enctype="text/plain">
+                <!--<form name="htmlform" method="post" action="contact-form-handler.php">-->
+                  <label for="first_name" class="mail_element">First Name *</label>
+                  <input  type="text" name="first_name" maxlength="50" class="mail_element">
+                  <label for="last_name" class="mail_element" >Last Name *</label>
+                  <input  type="text" name="last_name" maxlength="50" class="mail_element">
+                  <label for="email" class="mail_element">Email Address *</label>
+                  <input  type="text" name="email" maxlength="80" class="mail_element">
+                  <label for="telephone" class="mail_element">Telephone Number</label>
+                  <input  type="text" name="telephone" maxlength="30" class="mail_element">
+                  <label for="comments" class="mail_element">Comments *</label>
+                  <textarea  name="comments" maxlength="1000" cols="25" rows="6" class="mail_element"></textarea>
+                  <input type="submit" value="Submit" class="mail_element">
+                </form>
+              </div>
+            </div>
+
+        </section>
+
+        <section id='social-sharing'>
+           <a class="twitter-timeline"
+            data-widget-id="610281647150268417"
+            href="https://twitter.com/MedicoXpress"
+            width="500"
+            height="400"
+            data-chrome = "nofooter">
+            Tweets by @MedicoXpress
+          </a>
+        </section>
+
+        <footer>
+           <section id="bot-button-wrapper">
+            <a href="index.html"><div class="bot-navigation-button">Home</div></a>
+            <a href="services.html"><div class="bot-navigation-button">Services</div></a>
+            <a href="specialists.html"><div class="bot-navigation-button">Specialists</div></a>
+            <a href="about.html"><div class="bot-navigation-button">About</div></a>
+            <a href="contact.html"><div class="bot-navigation-button">Contact</div></a>
+            <a href="http://e-wish.com.mx" target="_blank"><div id="ewish"> Powered By eWish<div></a>
+          </section>
+        </footer>
+      </div>
+
+   </body>
+</html>

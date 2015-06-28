@@ -3,6 +3,9 @@
   <head>
     <title>MedicoXpress - Home</title>
     <link rel="stylesheet" href="css/index.css"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="http://static.addtoany.com/menu/page.js"></script>
   </head>
 
   <body>
@@ -14,46 +17,93 @@
             <!--<strong>M</strong>edico<span><strong>X</strong>press</span>-->
           </div>
           <section id="top-button-wrapper">
-            <div class="top-navigation-button"><div>HOME</div></div>
-            <div class="top-navigation-button"><div>SERVICES</div></div>
-            <div class="top-navigation-button"><div>SPECIALISTS</div></div>
-            <div class="top-navigation-button"><div>ABOUT</div></div>
-            <div class="top-navigation-button"><div>ContactT</div></div>
+            <a href="index.html"><div class="top-navigation-button home active"><div>HOME</div></div></a>
+            <a href="services.html"><div class="top-navigation-button services inactive"><div>SERVICES</div></div></a>
+            <a href="specialists.html"><div class="top-navigation-button specialists inactive"><div>SPECIALISTS</div></div></a>
+            <a href="about.html"><div class="top-navigation-button about inactive"><div>ABOUT</div></div></a>
+            <a href="contact.html"><div class="top-navigation-button contact inactive"><div>CONTACT</div></div></a>
           </section>
         </section>
       </header>
 
-
+      <body>
         <section id="body-wrapper">
           <section id="left-column">
-            <a href="http://www.facebook.com/sharer.php?u=http://www.medicoxpress.com/home.html">FB</a>
-          </section>
-           <section id="right-column">
-            RIGHT COLUMN
+            <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+              <a class="a2a_dd" href="https://www.addtoany.com/share_save"></a>
+              <a class="a2a_button_facebook"></a>
+              <a class="a2a_button_google_plus"></a>
+              <a class="a2a_button_twitter"></a>
+              <a class="a2a_button_email"></a>
+            </div>
           </section>
           <section id="main">
-            MAIN SECTION
-
-
-
-
+            <div id="slider">
+              <a href="#" class="control_next">>></a>
+              <a href="#" class="control_prev"><</a>
+              <ul>
+                <li><img src="img/home_image_slider_1.jpg"></li>
+                <li><img src="img/home_image_slider_2.jpg"</li>
+                <li><img src="img/home_image_slider_3.jpg"</li>
+                <li><img src="img/home_image_slider_4.jpg"</li>
+              </ul>
+            </div>
+            <aside id='main_content'>
+              <div class='main_content_wrapper'>
+                <div class='main_content_title'>
+                  <div>Prenatal Care</div>
+                </div>
+                <div class='main_content_body'>
+                  <img class='main_content_image' src="img/home_content_fetalcare.jpg">
+                  <span>Prenatal care is a priority at MedicoXpress. Routine check-ups while the new life is being formed and the mother's health are large factors for creating a happy family.</span>
+                  <a href="services.html"><span>Read More...</span></a>
+                </div>
+              </div>
+              <div class='main_content_wrapper'>
+                <div class='main_content_title'>
+                  <div>Ultrasonography</div>
+                </div>
+                <div class='main_content_body'></div>
+                  <img class='main_content_image' src="img/home_content_ultra.jpg">
+                  <span>Different technologies for scanning and diagnosis. We use 2D standard scanning and fetal 3D scanning. We are always aiming for your wellness.</span>
+                  <a href="services.html"><span>Read More...</span></a>
+              </div>
+              <div class='main_content_wrapper'>
+                <div class='main_content_title'>
+                  <div>Clinical Analysis</div>
+                </div>
+                <div class='main_content_body'>
+                  <img class='main_content_image' src="img/home_content_analysis.jpg">
+                  <span>We take representative samples to perform biotechnical recognition in our lab tests.</span>
+                  <a href="services.html"><span>Read More...</span></a>
+                </div>
+              </div>
+            </aside>
           </section>
         </section>
 
+    <section id='social-sharing'>
+       <a class="twitter-timeline"
+        data-widget-id="610281647150268417"
+        href="https://twitter.com/MedicoXpress"
+        width="500"
+        height="400"
+        data-chrome = "nofooter">
+        Tweets by @MedicoXpress
+      </a>
+    </section>
 
         <footer>
            <section id="bot-button-wrapper">
-            <div class="bot-navigation-button">Home</div>
-            <div class="bot-navigation-button">Services</div>
-            <div class="bot-navigation-button">Specialists</div>
-            <div class="bot-navigation-button">About</div>
-            <div class="bot-navigation-button">Contact</div>
-            <div id="ewish"> Powered By eWish<div>
+            <a href="index.html"><div class="bot-navigation-button">Home</div></a>
+            <a href="services.html"><div class="bot-navigation-button">Services</div></a>
+            <a href="specialists.html"><div class="bot-navigation-button">Specialists</div></a>
+            <a href="about.html"><div class="bot-navigation-button">About</div></a>
+            <a href="contact.html"><div class="bot-navigation-button">Contact</div></a>
+            <a href="http://e-wish.com.mx" target="_blank"><div id="ewish"> Powered By eWish<div></a>
           </section>
         </footer>
-      </div>
-
-
    </body>
+
 
 </html>
